@@ -1,0 +1,116 @@
+*, *:before, *:after{
+  margin: 0;
+  padding:0;
+  border:0;
+
+}
+ul {
+  list-style: none;
+}
+/* ------- First Page Start -------- */
+#header {
+  background-image: url('../images/macbook.jpg');
+  height: 725px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#name {
+  text-align: center;
+  color: white;
+  padding-top: 75px;
+  font-size: 4em;
+  font-family: 'Cinzel', sans-serif;
+}
+
+#info-container {
+  text-align: center;
+  padding: 0 95px;
+  background-image: linear-gradient(#c0bec4,#c4bfc5),
+  linear-gradient(black,#821e1a);
+  background-clip: content-box, padding-box;
+  font-family: 'Cinzel', sans-serif;
+  font-size: 1.5em;
+
+}
+.pic {
+  font-size: 1em;
+  background-color: black;
+  color: #c0bec4;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 3px;
+  cursor: pointer;
+}
+#erin-pic {
+  background-image: url('../images/erin-and-vinny.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  width:275px;
+  display: none;
+}
+#vinny-pic {
+  background-image: url('../images/vinny.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 325px;
+  width: 300px;
+  transform: rotate(90deg);
+  display: none;
+}
+#beans-pic {
+  background-image: url('../images/beans.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 325px;
+  width: 300px;
+  transform: rotate(90deg);
+  display: none;
+}
+#birdie-pic{
+  background-image: url('../images/birdie2.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 325px;
+  width: 300px;
+  transform: rotate(90deg);
+  display: none;
+}
+.dog-pic {
+  display: inline-block;
+}
+
+.games,
+.comic,
+.music {
+  display: none;
+}
+
+/* ------- First Page End --------- */
+#my-goals {
+  background-image: url('../images/galaxy.jpeg');
+  height: 725px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#goals-title {
+  text-align: center;
+  color: white;
+  padding-top: 175px;
+  font-size: 4em;
+}
+#goals-container {
+  text-align: center;
+  padding: 0 95px;
+  background-image: linear-gradient(#146e94,#7b4cbe),
+  linear-gradient(#2a121c,#3795af);
+  background-clip: content-box, padding-box;
+  font-family: 'Cinzel', sans-serif;
+  font-size: 1.5em;
+}
