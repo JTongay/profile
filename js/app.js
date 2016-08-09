@@ -19,15 +19,15 @@
   }
 
   function showVinny() {
-    $('#vinny-pic').fadeIn(1000).css("display", "inline-block");
+    $('#vinny-pic').fadeIn(1000);
   }
 
   function showBeans() {
-    $('#beans-pic').fadeIn(1000).css("display", "inline-block");
+    $('#beans-pic').fadeIn(1000);
   }
 
   function showBirdie() {
-    $('#birdie-pic').fadeIn(1000).css("display", "inline-block");
+    $('#birdie-pic').fadeIn(1000);
   }
 
   function showGames(){

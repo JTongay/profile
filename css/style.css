@@ -82,6 +82,12 @@ ul {
   transform: rotate(90deg);
   display: none;
 }
+/* Fixed jQuery .css function so that it wasn't necessary anymore */
+.buttonsInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .games,
 .comic,
