@@ -14,36 +14,29 @@
 
   });
 
-  function showErin(e) {
-    e.preventDefault();
+  function showErin() {
     $('#erin-pic').fadeIn(1000);
   }
 
-  function showVinny(e) {
-    e.preventDefault();
-    $('#vinny-pic').fadeIn(1000).css('display', 'inline-block');
+  function showVinny() {
+    $('#vinny-pic').fadeIn(1000).css("display", "inline-block");
   }
 
-  function showBeans(e) {
-    e.preventDefault();
-    $('#beans-pic').fadeIn(1000).css('display', 'inline-block');
+  function showBeans() {
+    $('#beans-pic').fadeIn(1000).css("display", "inline-block");
   }
 
-  function showBirdie(e) {
-    e.preventDefault();
-    $('#birdie-pic').fadeIn(1000).css('display', 'inline-block');
+  function showBirdie() {
+    $('#birdie-pic').fadeIn(1000).css("display", "inline-block");
   }
 
-  function showGames(e){
-    e.preventDefault();
+  function showGames(){
     $('.games').fadeIn(500);
   }
-  function showMusic(e){
-    e.preventDefault();
+  function showMusic(){
     $('.music').fadeIn(500);
   }
-  function showComics(e){
-    e.preventDefault();
+  function showComics(){
     $('.comic').fadeIn(500);
   }
 

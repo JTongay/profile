@@ -82,9 +82,6 @@ ul {
   transform: rotate(90deg);
   display: none;
 }
-.dog-pic {
-  display: inline-block;
-}
 
 .games,
 .comic,
